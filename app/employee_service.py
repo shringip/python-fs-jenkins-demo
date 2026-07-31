@@ -1,7 +1,7 @@
 class EmployeeServcie:
  
     def calculate_annual_salary(self,monthly_salary):
-        if monthly_salary==0:
+        if monthly_salary<=0:
             raise ValueError("monthly salary must be greater than 0")
         return monthly_salary *12
  
