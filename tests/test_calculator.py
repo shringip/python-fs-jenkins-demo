@@ -4,7 +4,7 @@ from app.calculator import add,substract,multiply,divison
  
  
 def test_add():
-    assert add(10,20)==40
+    assert add(10,20)==30
  
 def test_subtract():
     assert substract(20,10)==10
