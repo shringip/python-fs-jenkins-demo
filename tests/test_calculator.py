@@ -1,6 +1,6 @@
 import pytest
  
-from app.calculator import add,substract,multiply,division
+from app.calculator import add,substract,multiply,divison
  
  
 def test_add():
@@ -13,10 +13,10 @@ def test_multiply():
     assert multiply(4,4)==16
  
 def test_division():
-    assert division(20,5)==4
+    assert divison(20,5)==4
  
 def test_divide_by_zero():
     with pytest.raises(ValueError):
-        division(10,0)
+        divison(10,0)
  
  
