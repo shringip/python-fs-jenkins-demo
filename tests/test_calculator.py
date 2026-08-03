@@ -4,7 +4,7 @@ from app.calculator import add,substract,multiply,divison
  
 @pytest.mark.smoke
 def test_add():
-    assert add(10,20)==30
+    assert add(1,20)==21
  
 def test_subtract():
     assert substract(20,10)==10
